@@ -22,3 +22,7 @@ It involves the following key steps:
 
 * Microsoft SQL Server Studio
 * Power BI
+
+# Dashboard
+
+![Hotel Data Analysis Dashboard](https://github.com/user-attachments/assets/33c6bbf0-48d0-42d7-a91c-716f829c3092)
