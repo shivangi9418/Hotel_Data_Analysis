@@ -1,8 +1,8 @@
-# Introduction
+# 🚀Introduction
 
 This project illustrates how to create a data analyst portfolio project with hotel booking data. It entails creating a database, data extraction and transformation with SQL, and visualization with Power BI to respond to important business questions.
 
-# Project Overview
+#  🏨Project Overview
 
 This project is intended to process and visualize hotel reservation data in order to get insights into revenue patterns, parking lot usage, and guest patterns. 
 
@@ -18,13 +18,13 @@ It involves the following key steps:
 * What trends are evident in the data, with regard to average daily rate and guest behavior?
 5.  **Findings Summary:** A summary of the main findings and conclusions reached through the data analysis.
 
-# Technologies Used
+# 🛠️Technologies Used
 
 * Microsoft SQL Server Studio
 * Power BI
 
-# Project Summary
-**1. Database Construction:**
+# 📌Project Summary
+**1. 🗄️Database Construction:**
 * Establishing a database by importing hotel booking records from Excel into Microsoft SQL Server Studio.
 
 * Loading hotel reservation data from spreadsheet sources.
@@ -44,7 +44,7 @@ It involves the following key steps:
        LEFT JOIN dbo.meal_cost$
        ON meal_cost$.meal=hotels.meal
 
-**2. Data Extraction and Processing:**
+**2. 🔍Data Extraction and Processing:**
 
 * Crafting SQL queries to extract, clean, and process hotel booking data.
 
@@ -65,7 +65,7 @@ It involves the following key steps:
       FROM hotels
       GROUP BY arrival_date_year,hotel
 
-**3. Data Visualization and Insights:**
+**3. 📊Data Visualization and Insights:**
 
 * Establishing a connection between Power BI and SQL Server to generate reports and dashboards.
 
@@ -83,7 +83,7 @@ It involves the following key steps:
 
    * Parking lot usage patterns
 
-**4. Key Takeaways**      
+**4. ✅Key Takeaways**      
 
 * Revenue increase significantly from 2018 to 2019, it then decreased slightly from 2019 to 2020. Though it should br noted that the data for 2020 was still building up when the data was imported.
   
@@ -91,6 +91,6 @@ It involves the following key steps:
 
 * It can be seen that the parking space required is not increasing & is almost stagnant, So, there seems no need to increase parking area.
  
-# Dashboard
+# 📉Dashboard
 
 ![Hotel Data Analysis Dashboard](https://github.com/user-attachments/assets/33c6bbf0-48d0-42d7-a91c-716f829c3092)
